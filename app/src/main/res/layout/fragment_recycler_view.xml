@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/textView_1"
+            android:text="@string/login_with_g"
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/textColor"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_below="@id/textView_1"
+            android:id="@+id/recyclerView_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_below="@id/recyclerView_1"
+            android:id="@+id/textView_2"
+            android:text="@string/login_with_g"
+            android:textSize="25sp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/textColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_below="@id/textView_2"
+            android:id="@+id/recyclerView_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_below="@id/recyclerView_2"
+            android:id="@+id/textView_3"
+            android:text="@string/login_with_g"
+            android:textSize="25sp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/textColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_below="@id/textView_3"
+            android:id="@+id/recyclerView_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </RelativeLayout>
+</ScrollView>

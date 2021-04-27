@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">TMBDMobileApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="remember_me">Remember me</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="username">Username</string>
+    <string name="login">LOGIN</string>
+    <string name="email_usrname">Email/Usrname</string>
+    <string name="register">REGISTER</string>
+    <string name="login_with_facebook">LOGIN WITH FACEBOOK</string>
+    <string name="login_with_g">LOGIN WITH G+</string>
+
+
+    <string name="lore_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pellentesque ut lacus a ultrices. Ut ultricies, eros a eleifend placerat, tellus sapien tincidunt risus, non ultricies orci risus a purus. Vestibulum eu neque fringilla, molestie neque nec, interdum massa. Etiam et lacinia augue, in egestas mi. Nunc congue, elit in pretium consectetur, ligula elit venenatis tortor, et volutpat est elit non sem. Fusce ullamcorper sagittis sollicitudin. Nunc semper euismod tellus sit amet egestas. Quisque maximus tincidunt diam vitae consectetur. Ut elementum arcu odio, non pharetra ante hendrerit a. Quisque elementum magna felis, sed ultricies lacus posuere eget. Proin rhoncus sodales tellus, et pulvinar lorem laoreet sit amet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam tincidunt mattis purus non cursus.</string>
+    <string name="Search">Search</string>
+    <string name="user_score">USER SCORE</string>
+    <string name="trailer_here">TRAILER HERE</string>
+    <string name="description">DESCRIPTION</string>
+    <string name="actors">ACTORS</string>
+    <string name="paugarridogarcia">paugarridogarcia</string>
+    <string name="pau_garrido_7e3_itb_cat">pau.garrido.7e3@itb.cat</string>
+</resources>

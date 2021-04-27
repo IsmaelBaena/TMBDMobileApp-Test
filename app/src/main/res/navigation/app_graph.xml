@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/app_graph"
+    app:startDestination="@id/recomendationsFragment">
+    <fragment
+        android:id="@+id/recomendationsFragment"
+        android:name="com.itb.tmbdmobileapp.Fragments.RecomendationsFragment"
+        android:label="RecomendationsFragment" >
+        <action
+            android:id="@+id/recomendations_to_search"
+            app:destination="@id/searchFragment" />
+        <action
+            android:id="@+id/recomendations_to_filmAndSeriesDetails"
+            app:destination="@id/filmAndSeriesDetailsFragment" >
+            <argument
+                android:name="film"
+                app:argType="com.itb.tmbdmobileapp.Modelos.MovieTest"
+                />
+        </action>
+        <action
+            android:id="@+id/recomendations_to_actorDetails"
+            app:destination="@id/actorDetailsFragment" >
+            <argument
+                android:name="actor"
+                app:argType="com.itb.tmbdmobileapp.Modelos.ActorTest"
+                />
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.itb.tmbdmobileapp.Fragments.SearchFragment"
+        android:label="SearchFragment" >
+        <action
+            android:id="@+id/search_to_recomendations"
+            app:destination="@id/recomendationsFragment" />
+        <action
+            android:id="@+id/search_to_filmAndSeriesDetails"
+            app:destination="@id/filmAndSeriesDetailsFragment" >
+            <argument
+                android:name="film"
+                app:argType="com.itb.tmbdmobileapp.Modelos.MovieTest"
+                />
+        </action>
+        <action
+            android:id="@+id/search_to_actorDetails"
+            app:destination="@id/actorDetailsFragment" >
+            <argument
+                android:name="actor"
+                app:argType="com.itb.tmbdmobileapp.Modelos.ActorTest"
+                />
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/filmAndSeriesDetailsFragment"
+        android:name="com.itb.tmbdmobileapp.Fragments.FilmAndSeriesDetailsFragment"
+        android:label="FilmAndSeriesDetailsFragment"
+        app:startDestination="@id/filmAndSeriesDetails_to_recomendations">
+        <action
+            android:id="@+id/filmAndSeriesDetails_to_actorDetails"
+            app:destination="@id/actorDetailsFragment" >
+            <argument
+                android:name="actor"
+                app:argType="com.itb.tmbdmobileapp.Modelos.ActorTest"
+                />
+        </action>
+        <action
+            android:id="@+id/filmAndSeriesDetails_to_recomendations"
+            app:destination="@id/recomendationsFragment" />
+        <action
+            android:id="@+id/filmAndSeriesDetails_to_search"
+            app:destination="@id/searchFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/actorDetailsFragment"
+        android:name="com.itb.tmbdmobileapp.Fragments.ActorDetailsFragment"
+        android:label="ActorDetailsFragment" >
+        <action
+            android:id="@+id/actorDetails_to_filmAndSeriesDetails"
+            app:destination="@id/filmAndSeriesDetailsFragment" >
+            <argument
+                android:name="film"
+                app:argType="com.itb.tmbdmobileapp.Modelos.MovieTest"
+                />
+        </action>
+        <action
+            android:id="@+id/actorDetails_to_recomendations"
+            app:destination="@id/recomendationsFragment" />
+        <action
+            android:id="@+id/actorDetails_to_search"
+            app:destination="@id/searchFragment" />
+    </fragment>
+</navigation>

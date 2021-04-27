@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Sign up"
+        android:id="@+id/Login"
+        android:icon="@drawable/login"/>
+
+    <item
+        android:title="Sign in"
+        android:id="@+id/Register"
+        android:icon="@drawable/register"/>
+</menu>
